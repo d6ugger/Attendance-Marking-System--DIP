@@ -12,4 +12,4 @@ New snapshots (test data) are stored under 'classroom' folder.
 For recognition, trained feature set (by PCA algorithm) is stored under s1,s2, s3, s4 folders for each student.
 Preprocessed (i.e. extracted, grayscaled and then, cropped) images for single day attendance are buffered in 'cropped_faces' folder temporarily and then auto-deleted.
 
-'main.m' script calls 'face_detection.m' script which further calls 'face_recognition.m' script in loop for different days attendance. 
+The 'main.m' script calls 'face_detection.m' script which further calls 'face_recognition.m' script in loop for different days attendance. All days record are then saved in excel file. 
